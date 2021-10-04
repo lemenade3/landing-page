@@ -1,0 +1,174 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    align-items: center;
+}
+
+.header div {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header, .section1, .footer {
+    background-color: #1f2937;
+}
+
+.intro {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.section1 img {
+    width: 400px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.info img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 80px;
+    gap: 10px;
+}
+
+.section4 {
+    padding: 80px 150px;
+}
+
+.quote {
+    max-width: 600px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.quote .author {
+    align-self: flex-end;
+    font-weight: 700;
+}
+
+.items {
+    display: flex;
+    gap: 75px;
+    margin-bottom: 50px;
+}
+
+.subtitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.left {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text {
+    text-align: center;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 6px 25px;
+    border-radius: 5px;
+    color: #F9FAF8;
+    border: none;
+}
+
+.call {
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call .buttons {
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+}
+
+.sub {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.call-sub {
+    font-size: 18px;
+    font-weight: 200;
+    color: #E5E7EB;
+}
+
+.footer {
+    color: #F9FAF8;
+    display: flex;
+    padding: 35px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
